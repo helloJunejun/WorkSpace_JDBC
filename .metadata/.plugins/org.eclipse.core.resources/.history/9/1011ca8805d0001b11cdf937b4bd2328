@@ -1,0 +1,16 @@
+package com.work.model;
+
+
+/**
+ * 모든 DAO 클래스에서 사용하기 위한 Connection 반환, close() 자원해제를 담당하는 기능으로만 분리설계
+ * -- Singleton pattern
+ * @author jun
+ *
+ */
+public class FactoryDao {
+	
+	private FactoryDao() {
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.work.model;
+
+
+/**
+ * 모든 DAO 클래스에서 사용하기 위한 Connection 반환, close() 자원해제를 담당하는 기능으로만 분리설계
+ * -- Singleton pattern
+ * 1. private 생성자
+ * 2. private static 클래스이름 instance = new 클래스이름(); 
+ * 3. instance 반환 메서드
+ * @author jun
+ *
+ */
+public class FactoryDao {
+	
+	private FactoryDao() {
+	
+	}
+	private static FactoryDao instance = new FactoryDao(); // 2. private static 클래스이름 instance = new 클래스이름(); 
+	
+	public static FactoryDao getInstance() { // 3. instance 반환 메서드
+		return instance;
+	}
+
+}

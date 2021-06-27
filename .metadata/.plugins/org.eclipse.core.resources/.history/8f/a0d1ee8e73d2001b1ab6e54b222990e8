@@ -1,0 +1,22 @@
+package com.concert.model;
+
+public class Reservation {
+
+	/** 회원id : 식별키 */
+	public int infoCode;
+	
+	/** 비밀번호 : 필수 */
+	public String cusName;
+	
+	/** 이름 : 필수 */
+	public int stGrade;
+	
+	/** 휴대폰 : 필수 */
+	public int stNum;
+	
+	
+	
+
+	
+	
+}

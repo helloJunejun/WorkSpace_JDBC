@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="com.work.model.Member"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.work.model.MemberDao"/>
+    <fullyQualifiedTypeName name="com.work.util.Utility"/>
+    <fullyQualifiedTypeName name="com.concert.util.Utility"/>
+    <fullyQualifiedTypeName name="com.concert.model.Member"/>
+    <fullyQualifiedTypeName name="com.concert.model.Info"/>
+    <fullyQualifiedTypeName name="com.concert.model.Reservation"/>
+</qualifiedTypeNameHistroy>
